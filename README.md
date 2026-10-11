@@ -1,17 +1,6 @@
-# f3_form
+CÁC BÀI NÂNG CAO ĐÃ HOÀN THÀNH:
 
-A new Flutter project.
+NC1	Thêm ô chọn ngày sinh bằng showDatePicker, hiển thị dạng dd/MM/yyyy.	final d = await showDatePicker(context: context, firstDate: …, lastDate: …); rồi setState. Định dạng bằng package intl hoặc ghép chuỗi thủ công.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+NC2	Kiểm tra phụ thuộc: nếu chọn hệ "Vừa làm vừa học" thì bắt buộc chọn buổi Tối.	Thêm điều kiện trong _dangKy() trước khi hiện hộp thoại.
